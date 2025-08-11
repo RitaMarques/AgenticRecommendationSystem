@@ -51,25 +51,25 @@ It's a lightweight implementation developed in a short-period of time based on L
 ## 📁 Repo structure
 ```bash
 .
-├── 00_raw_data/ # original data files 
-├── 01_clean_data/ # ingestion-ready data files after data cleaning, processing and preparation
-├── agentic_system/ # agentic system modules
-│ ├── agents/ # agents definitions
+├── 00_raw_data/            # original data files 
+├── 01_clean_data/          # ingestion-ready data files after data cleaning, processing and preparation
+├── agentic_system/         # agentic system modules
+│ ├── agents/               # agents definitions
 │ │ ├── querying_agent.py/
 │ │ ├── recommendation_agent.py/
 │ │ ├── supervisor_agent.py/
-│ ├── db/ # database utils
-│ │ ├── db_conn.py/ # connection and session management
-│ │ ├── db_schemas.py/ # SQL Alchemy ORM definitions for quick setup and cross-tech usage
+│ ├── db/                   # database utils
+│ │ ├── db_conn.py/         # connection and session management
+│ │ ├── db_schemas.py/      # SQL Alchemy ORM definitions for quick setup and cross-tech usage
 │ ├── utils/
-│ │ ├── llm.py/ # configures LLM clients for tools and inference
-│ │ ├── utils.py/ # embedding generation, shared state definitions
-├── 00_data_setup.ipynb/ # notebook for data understanding and manipulation
-├── 01_insert_data.py/ # 1-time run script to ingest data to PostgreSQL database
-├── main.py/ # builds and executes the LangGraph state graph (run agentic system)
-├── requirements.txt/
-├── .env # environment variables
-└── README.md # documentation (this file)
+│ │ ├── llm.py/             # configures LLM clients for tools and inference
+│ │ ├── utils.py/           # embedding generation, shared state definitions
+├── 00_data_setup.ipynb/    # notebook for data understanding and manipulation
+├── 01_insert_data.py/      # 1-time run script to ingest data to PostgreSQL database
+├── main.py/                # builds and executes the LangGraph state graph (run agentic system)
+├── requirements.txt/         # python packages to install
+├── .env                    # environment variables
+└── README.md               # documentation (this file)
 ```
 ---
 
@@ -100,14 +100,20 @@ The system is currently accessible only as a backend Python module that handles 
  - OpenAI API key (for LLM inference and embeddings).
     
 ### ⚙️ Setup
-#### 1️⃣ Create a python virtual environment and activate it
+#### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/RitaMarques/AgenticRecommendationSystem.git
+cd AgenticRecommendationSystem
+```
 
-#### 2️⃣ Install Dependencies
+#### 2️⃣ Create a python virtual environment and activate it
+
+#### 4️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-#### 3️⃣ Configure Environment Variables
+#### 3️⃣ Configure environment variables
 Create an `.env` file at the root:
 ```bash
     DB_USER="postgres"
@@ -119,15 +125,14 @@ Create an `.env` file at the root:
     OPENAI_TOOL_MODEL="gpt-4.1-nano-2025-04-14"
 ```
 
-#### 4️⃣ Prepare the database
+#### 5️⃣ Prepare the database
 Run the data ingestion script to populate the PostgreSQL database
 ```bash
 python 01_insert_data.py
 ```
 
-#### 5️⃣ Run the recommendation system
+#### 6️⃣ Run the recommendation system
 ```bash
 python main.py "<your user query>"
 ```
 *Note: you'll see application debug prints*
-
