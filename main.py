@@ -53,13 +53,16 @@ if __name__ == "__main__":
     user_query = sys.argv[1]
     
     print(f"User query received: {user_query}")
+    print("\n\n--------------------------------debug prints--------------------------------\n")
 
     answer = call_recommendation_system(user_query)
     
-    print(answer.content)
+    print("\n\n--------------------------------ended debug prints--------------------------------\n")
+    print(f"Answer: {answer.content}")
 
     # user_query = "I want a pepperoni pizza with extra cheese please."
     # call_recommendation_system(user_query)
 
     #user_query = "I want to buy a game for my nephew, at Store A, who is 5 years old. We loved Super Mario Odyssey, but I cannot buy a game from this family as he already has all Super Mario games."
     #call_recommendation_system(user_query)
+
