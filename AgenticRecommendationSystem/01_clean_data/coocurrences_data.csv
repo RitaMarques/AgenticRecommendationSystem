@@ -1,0 +1,121 @@
+product1,product2,cooccurrence_count
+Nintendo Switch,Zelda: Breath of the Wild,30000
+Nintendo Switch,Zelda: Tears of the Kingdom,50000
+Nintendo Switch,Super Mario Odyssey,60000
+Mario Kart 8 Deluxe,Nintendo Switch,40000
+Mario Party Superstars,Nintendo Switch,20000
+Nintendo Switch,Sonic Generations,10000
+Nintendo Switch,Sonic Mania,10000
+Animal Crossing: New Horizons,Nintendo Switch,100000
+Nintendo Switch,Splatoon 3,30000
+Nintendo Switch,Pikmin 4,5000
+Nintendo Switch,Nintendo Switch Pro Controller,50000
+Joy-Con Controllers (Pair),Nintendo Switch,20000
+Nintendo Switch,Nintendo Switch Dock Set,10000
+Nintendo Switch,Nintendo Switch Carrying Case,10000
+Nintendo Switch,Nintendo Switch Screen Protector,5000
+Zelda: Breath of the Wild,Zelda: Tears of the Kingdom,20000
+Super Mario Odyssey,Zelda: Breath of the Wild,15000
+Mario Kart 8 Deluxe,Zelda: Breath of the Wild,10000
+Mario Party Superstars,Zelda: Breath of the Wild,5000
+Sonic Generations,Zelda: Breath of the Wild,2000
+Sonic Mania,Zelda: Breath of the Wild,3000
+Animal Crossing: New Horizons,Zelda: Breath of the Wild,30000
+Splatoon 3,Zelda: Breath of the Wild,20000
+Pikmin 4,Zelda: Breath of the Wild,2000
+Nintendo Switch Pro Controller,Zelda: Breath of the Wild,5000
+Joy-Con Controllers (Pair),Zelda: Breath of the Wild,3000
+Nintendo Switch Dock Set,Zelda: Breath of the Wild,2000
+Nintendo Switch Carrying Case,Zelda: Breath of the Wild,2000
+Nintendo Switch Screen Protector,Zelda: Breath of the Wild,1000
+Super Mario Odyssey,Zelda: Tears of the Kingdom,25000
+Mario Kart 8 Deluxe,Zelda: Tears of the Kingdom,15000
+Mario Party Superstars,Zelda: Tears of the Kingdom,10000
+Sonic Generations,Zelda: Tears of the Kingdom,5000
+Sonic Mania,Zelda: Tears of the Kingdom,5000
+Animal Crossing: New Horizons,Zelda: Tears of the Kingdom,30000
+Splatoon 3,Zelda: Tears of the Kingdom,20000
+Pikmin 4,Zelda: Tears of the Kingdom,2000
+Nintendo Switch Pro Controller,Zelda: Tears of the Kingdom,10000
+Joy-Con Controllers (Pair),Zelda: Tears of the Kingdom,3000
+Nintendo Switch Dock Set,Zelda: Tears of the Kingdom,2000
+Nintendo Switch Carrying Case,Zelda: Tears of the Kingdom,2000
+Nintendo Switch Screen Protector,Zelda: Tears of the Kingdom,1000
+Mario Kart 8 Deluxe,Super Mario Odyssey,30000
+Mario Party Superstars,Super Mario Odyssey,20000
+Sonic Generations,Super Mario Odyssey,5000
+Sonic Mania,Super Mario Odyssey,5000
+Animal Crossing: New Horizons,Super Mario Odyssey,25000
+Splatoon 3,Super Mario Odyssey,10000
+Pikmin 4,Super Mario Odyssey,2000
+Nintendo Switch Pro Controller,Super Mario Odyssey,2000
+Joy-Con Controllers (Pair),Super Mario Odyssey,1000
+Nintendo Switch Dock Set,Super Mario Odyssey,0
+Nintendo Switch Carrying Case,Super Mario Odyssey,0
+Nintendo Switch Screen Protector,Super Mario Odyssey,0
+Mario Kart 8 Deluxe,Mario Party Superstars,10000
+Mario Kart 8 Deluxe,Sonic Generations,2000
+Mario Kart 8 Deluxe,Sonic Mania,3000
+Animal Crossing: New Horizons,Mario Kart 8 Deluxe,13000
+Mario Kart 8 Deluxe,Splatoon 3,15000
+Mario Kart 8 Deluxe,Pikmin 4,1000
+Mario Kart 8 Deluxe,Nintendo Switch Pro Controller,5000
+Joy-Con Controllers (Pair),Mario Kart 8 Deluxe,3000
+Mario Kart 8 Deluxe,Nintendo Switch Dock Set,2000
+Mario Kart 8 Deluxe,Nintendo Switch Carrying Case,1000
+Mario Kart 8 Deluxe,Nintendo Switch Screen Protector,0
+Mario Party Superstars,Sonic Generations,2000
+Mario Party Superstars,Sonic Mania,3000
+Animal Crossing: New Horizons,Mario Party Superstars,15000
+Mario Party Superstars,Splatoon 3,10000
+Mario Party Superstars,Pikmin 4,1000
+Mario Party Superstars,Nintendo Switch Pro Controller,5000
+Joy-Con Controllers (Pair),Mario Party Superstars,2000
+Mario Party Superstars,Nintendo Switch Dock Set,1000
+Mario Party Superstars,Nintendo Switch Carrying Case,1000
+Mario Party Superstars,Nintendo Switch Screen Protector,0
+Sonic Generations,Sonic Mania,10000
+Animal Crossing: New Horizons,Sonic Generations,10000
+Sonic Generations,Splatoon 3,10000
+Pikmin 4,Sonic Generations,1000
+Nintendo Switch Pro Controller,Sonic Generations,3000
+Joy-Con Controllers (Pair),Sonic Generations,2000
+Nintendo Switch Dock Set,Sonic Generations,1000
+Nintendo Switch Carrying Case,Sonic Generations,1000
+Nintendo Switch Screen Protector,Sonic Generations,1000
+Animal Crossing: New Horizons,Sonic Mania,20000
+Sonic Mania,Splatoon 3,15000
+Pikmin 4,Sonic Mania,1000
+Nintendo Switch Pro Controller,Sonic Mania,3000
+Joy-Con Controllers (Pair),Sonic Mania,2000
+Nintendo Switch Dock Set,Sonic Mania,1000
+Nintendo Switch Carrying Case,Sonic Mania,1000
+Nintendo Switch Screen Protector,Sonic Mania,1000
+Animal Crossing: New Horizons,Splatoon 3,50000
+Animal Crossing: New Horizons,Pikmin 4,10000
+Animal Crossing: New Horizons,Nintendo Switch Pro Controller,100000
+Animal Crossing: New Horizons,Joy-Con Controllers (Pair),50000
+Animal Crossing: New Horizons,Nintendo Switch Dock Set,10000
+Animal Crossing: New Horizons,Nintendo Switch Carrying Case,10000
+Animal Crossing: New Horizons,Nintendo Switch Screen Protector,10000
+Pikmin 4,Splatoon 3,10000
+Nintendo Switch Pro Controller,Splatoon 3,50000
+Joy-Con Controllers (Pair),Splatoon 3,30000
+Nintendo Switch Dock Set,Splatoon 3,10000
+Nintendo Switch Carrying Case,Splatoon 3,5000
+Nintendo Switch Screen Protector,Splatoon 3,5000
+Nintendo Switch Pro Controller,Pikmin 4,2000
+Joy-Con Controllers (Pair),Pikmin 4,2000
+Nintendo Switch Dock Set,Pikmin 4,1000
+Nintendo Switch Carrying Case,Pikmin 4,1000
+Nintendo Switch Screen Protector,Pikmin 4,0
+Joy-Con Controllers (Pair),Nintendo Switch Pro Controller,10000
+Nintendo Switch Dock Set,Nintendo Switch Pro Controller,5000
+Nintendo Switch Carrying Case,Nintendo Switch Pro Controller,2000
+Nintendo Switch Pro Controller,Nintendo Switch Screen Protector,0
+Joy-Con Controllers (Pair),Nintendo Switch Dock Set,3000
+Joy-Con Controllers (Pair),Nintendo Switch Carrying Case,1000
+Joy-Con Controllers (Pair),Nintendo Switch Screen Protector,0
+Nintendo Switch Carrying Case,Nintendo Switch Dock Set,2000
+Nintendo Switch Dock Set,Nintendo Switch Screen Protector,1000
+Nintendo Switch Carrying Case,Nintendo Switch Screen Protector,0
