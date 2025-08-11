@@ -6,13 +6,11 @@ This project implements an LLM-powered, multi-agent recommendation system for Ni
 
 The system is designed as a graph of specialized agents:
 
-- Supervisor Agent — interprets user intent, routes tasks to appropriate workers.
-- Querying Agent — retrieves relevant product and co-occurrence data from the database.
-- Recommendation Agent — generates final recommendations using the retrieved data.
+- **Supervisor Agent** — interprets user intent, routes tasks to appropriate workers.
+- **Querying Agent** — retrieves relevant product and co-occurrence data from the database.
+- **Recommendation Agent** — generates final recommendations using the retrieved data.
 
 It's a lightweight implementation developed in a short-period of time based on LangGraph, LangChain, and PostgreSQL to provide data-driven recommendations. 
-
----
 
 ## 🚀 Features
 - Multi-agent orchestration with LangGraph state management.
@@ -46,7 +44,6 @@ It's a lightweight implementation developed in a short-period of time based on L
                                                           +---------+ 
 ```
 
----
 
 ## 📁 Repo structure
 ```bash
@@ -71,6 +68,7 @@ It's a lightweight implementation developed in a short-period of time based on L
 ├── .env                    # environment variables
 └── README.md               # documentation (this file)
 ```
+
 ---
 
 ## Limitations & short-term developments
@@ -108,12 +106,12 @@ cd AgenticRecommendationSystem
 
 #### 2️⃣ Create a python virtual environment and activate it
 
-#### 4️⃣ Install dependencies
+#### 3️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-#### 3️⃣ Configure environment variables
+#### 4️⃣ Configure environment variables
 Create an `.env` file at the root:
 ```bash
     DB_USER="postgres"
@@ -136,3 +134,4 @@ python 01_insert_data.py
 python main.py "<your user query>"
 ```
 *Note: you'll see application debug prints*
+
